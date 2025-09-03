@@ -63,7 +63,7 @@ namespace Courses
             Console.WriteLine($"{nomeUser} tem {idadeUser} anos e tem saldo igual a R${saldoUser:F2}");
             
             //Concatenacao de strings
-            Console.WriteLine(nomeUser + " 1tem " + idadeUser +  " anos e tem saldo igual a R$" + saldoUser.ToString("F2"));
+            Console.WriteLine(nomeUser + " tem " + idadeUser +  " anos e tem saldo igual a R$" + saldoUser.ToString("F2"));
             
 
         }

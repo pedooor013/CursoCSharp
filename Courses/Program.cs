@@ -51,7 +51,20 @@ namespace Courses
 
             //Como controlar a quantidade de casas do numero double
             Console.WriteLine(n5.ToString("F2"));
-
+            
+            //Imprimindo variaveis no console
+            string nomeUser = "Pedro Lopess";
+            int idadeUser = 18;
+            float saldoUser = 1100.95853f;
+            //Placehouders
+            Console.WriteLine("{0} tem {1} anos e tem saldo igual a R${2:F2}", nomeUser, idadeUser, saldoUser);
+            
+            //Interpolacao
+            Console.WriteLine($"{nomeUser} tem {idadeUser} anos e tem saldo igual a R${saldoUser:F2}");
+            
+            //Concatenacao de strings
+            Console.WriteLine(nomeUser + " 1tem " + idadeUser +  " anos e tem saldo igual a R$" + saldoUser.ToString("F2"));
+            
 
         }
     }

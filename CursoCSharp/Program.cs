@@ -9,5 +9,5 @@ namespace CursoCSharp //Cada function deve estar dentro de um namespace, para qu
         {
             Console.WriteLine("Hello World!");
         }
-    }
+    } 
 }

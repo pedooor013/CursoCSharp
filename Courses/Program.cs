@@ -18,7 +18,7 @@ namespace Courses
             long n3 = 2147483648L;
             float n4 = 4.5f; //Para o C# identificar que o float eh mesmo um float, deve conter o f no final do numero,
                              //caso contrario ele eh identificado como double
-            double n5 = 4.5;
+            double n5 = 4.58654;
             object obj1 = "Pedro Lopes"; //Toda classe em C# eh uma classe object generica             
             object obj2 = 6.8f; //Object aceita QUALQUER tipo de dado
             
@@ -43,6 +43,15 @@ namespace Courses
             Console.WriteLine(nTeste2);
             Console.WriteLine(nTeste3);
             Console.WriteLine(nTeste4);
+            
+            //Exemplo de exibição no console
+            
+            Console.Write("Imprime no console a mensagem entre aspas duplas, porem nao adiciona quebra de linha");
+            Console.WriteLine("Escreve no console a mensagem entre aspas duplas, e adiciona uma quebra de linha");
+
+            //Como controlar a quantidade de casas do numero double
+            Console.WriteLine(n5.ToString("F2"));
+
 
         }
     }

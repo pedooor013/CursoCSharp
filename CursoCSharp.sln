@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacao", "Exercic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao", "OperadoresAtribuicao\OperadoresAtribuicao.csproj", "{B7CB383E-55B0-4138-8521-D8CDE439F2AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoImplicitaECasting", "ConversaoImplicitaECasting\ConversaoImplicitaECasting.csproj", "{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B7CB383E-55B0-4138-8521-D8CDE439F2AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7CB383E-55B0-4138-8521-D8CDE439F2AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7CB383E-55B0-4138-8521-D8CDE439F2AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

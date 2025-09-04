@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperadoresAtribuicao", "Ope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoImplicitaECasting", "ConversaoImplicitaECasting\ConversaoImplicitaECasting.csproj", "{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{6FACDB91-C629-4777-82C6-C0A8DC6D3CFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C6DC8C4-58E1-4FE4-966B-C3DF6532150C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FACDB91-C629-4777-82C6-C0A8DC6D3CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FACDB91-C629-4777-82C6-C0A8DC6D3CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FACDB91-C629-4777-82C6-C0A8DC6D3CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FACDB91-C629-4777-82C6-C0A8DC6D3CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

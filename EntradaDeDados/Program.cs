@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace EntradaDeDados;
 
@@ -6,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        /*
+        
         //ReadLine trata TODOS como string
         string frase, x, y, z, a, b, c;
         string s;
@@ -33,10 +34,11 @@ class Program
         Console.WriteLine(a);
         Console.WriteLine(b);
         Console.WriteLine(c);
-        */
+        
         
         //Ler int
 
+        
         int n1 = int.Parse(Console.ReadLine());
         
         //Ler char
@@ -51,8 +53,13 @@ class Program
         
         //Ler String
 
+        Console.WriteLine("Informações inseridas no array");
         string[] vet = Console.ReadLine().Split(' ');
         string nome = vet[0];
+        char sexo = char.Parse(vet[1]);
+        int idade = int.Parse(vet[2]);
+        double altura = double.Parse(vet[3], CultureInfo.InvariantCulture);
+        
         
         
         Console.WriteLine("Você digitou: ");
@@ -60,6 +67,9 @@ class Program
         Console.WriteLine(ch);
         Console.WriteLine(db);
         Console.WriteLine(f);
-        
+        Console.WriteLine(nome);
+        Console.WriteLine(sexo);
+        Console.WriteLine(idade);
+        Console.WriteLine(altura);
     }
 }

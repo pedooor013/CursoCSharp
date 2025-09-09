@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioEntradaDeDados", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soma", "Soma\Soma.csproj", "{C6A98D1B-0628-415F-9129-2C9750B88AD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaioCirculo", "RaioCirculo\RaioCirculo.csproj", "{B0676F36-5C28-48C4-8D24-1A425B356F33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{C6A98D1B-0628-415F-9129-2C9750B88AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A98D1B-0628-415F-9129-2C9750B88AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A98D1B-0628-415F-9129-2C9750B88AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0676F36-5C28-48C4-8D24-1A425B356F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0676F36-5C28-48C4-8D24-1A425B356F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0676F36-5C28-48C4-8D24-1A425B356F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0676F36-5C28-48C4-8D24-1A425B356F33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
